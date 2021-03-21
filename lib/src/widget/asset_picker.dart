@@ -629,7 +629,7 @@ class AssetPicker extends StatelessWidget {
                 color: provider.isSelectedNotEmpty
                     ? theme.textTheme.bodyText1.color
                     : theme.textTheme.caption.color,
-                fontSize: 17.0,
+                fontSize: 14.0,
                 fontWeight: FontWeight.normal,
               ),
             ),
@@ -745,7 +745,7 @@ class AssetPicker extends StatelessWidget {
           children: <Widget>[
             const Icon(
               Icons.videocam,
-              size: 24.0,
+              size: 18.0,
               color: Colors.white,
             ),
             Padding(
@@ -756,7 +756,7 @@ class AssetPicker extends StatelessWidget {
                 ),
                 style: const TextStyle(
                   color: Colors.white,
-                  fontSize: 16.0,
+                  fontSize: 13.0,
                 ),
                 strutStyle: const StrutStyle(
                   forceStrutHeight: true,
