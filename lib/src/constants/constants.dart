@@ -7,6 +7,7 @@ import 'dart:developer';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 
+import '../../wechat_assets_picker.dart';
 import 'constants.dart';
 
 export '../delegates/assets_picker_text_delegate.dart';
@@ -24,8 +25,7 @@ class Constants {
 
   static GlobalKey pickerKey = GlobalKey();
 
-  static AssetsPickerTextDelegate textDelegate =
-      DefaultAssetsPickerTextDelegate();
+  static AssetsPickerTextDelegate textDelegate = EnglishTextDelegate();
   static SortPathDelegate sortPathDelegate = SortPathDelegate.common;
 
   static const List<int> defaultPreviewThumbSize = <int>[200, 200];
